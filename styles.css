@@ -1,0 +1,21 @@
+li {
+    color: orange;
+}
+
+.big-text {
+    font-size: large;
+}
+
+#small-text {
+    font-size: small;
+}
+
+#box {
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 100px;
+}
+
+#box p {
+    background-color: orange;
+}
