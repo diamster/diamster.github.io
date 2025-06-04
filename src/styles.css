@@ -1,21 +1,33 @@
-li {
-    color: orange;
+.background-image {
+    width: 15%;
+    background-image: url('./images/backgroundimagewebsite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*Gives it a fandom wiki like background image effect*/
+    min-height: 100vh;
+    /*100vh means 100% of the visible screen height*/
+    
+
 }
 
-.big-text {
-    font-size: large;
+.main-content {
+    display: flex;
+    /*display: flex makes into a flexbox layout*/
+    justify-content: space-between;
+    /*ditributes the flexbox equal space for the center*/
+    align-items: stretch;
+    min-height: 100vh;
 }
 
-#small-text {
-    font-size: small;
-}
-
-#box {
-    background-color: aquamarine;
-    margin: 50px;
-    padding: 100px;
-}
-
-#box p {
-    background-color: orange;
+.center-content {
+    width: 70%;
+    padding: 40px;
+    /*Adds space inside the center section to prevent content from touching the edges*/
+    display: flex;
+    flex-direction: column;
+    /*stacks the content vertically*/
+    gap: 40px;
+    /*Add 40px vertical space between each item*/
 }
