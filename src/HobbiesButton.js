@@ -1,8 +1,9 @@
 function HobbiesButton() {
     return (
-        <div>
-            <h1>Button</h1>
-            <p>placeholder</p>
+        <div className="hobbies-button-location">
+            <a href="./hobbies" className="hobbies-button">
+                Learn more about me!
+            </a>
         </div>
 
 

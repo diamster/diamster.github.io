@@ -1,3 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Removes the default outer and inner spacing and allows the width to include padding and borders*/
+}
+/**/
+/*Header/Navbar section*/
+/**/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+}
+/*Sub-Section for logo and website name*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.website-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.navbar-buttons {
+    display: inline-flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-link {
+    padding: 10px 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-right: 1px solid black;
+    transition: background 0.3s, color 0.3s;
+}
+
+/*Removes the border of the last navbar button*/
+.nav-link:last-child {
+    border-right: none;
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: white;
+}
+  
+
+/**/
+/*Background image section*/
+/**/
 .background-image {
     width: 15%;
     background-image: url('./images/backgroundimagewebsite.jpg');
@@ -12,6 +83,15 @@
 
 }
 
+.bottom-background {
+    height: 100px;
+    background-image: url('./images/backgroundimagewebsite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .main-content {
     display: flex;
     /*display: flex makes into a flexbox layout*/
@@ -19,6 +99,7 @@
     /*ditributes the flexbox equal space for the center*/
     align-items: stretch;
     min-height: 100vh;
+    margin-top: 40px;
 }
 
 .center-content {
@@ -30,4 +111,129 @@
     /*stacks the content vertically*/
     gap: 40px;
     /*Add 40px vertical space between each item*/
+}
+/**/
+/*About me section*/
+/**/
+.about-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.photo-border {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    /*To hide the edges of the photo ID*/
+
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+  
+/**/
+/*Skills section*/
+/**/
+.skills-section {
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.skills-intro {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skills-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-button-location {
+    display: flex;
+    justify-content: flex-end;
+    /*Makes the button goes to the right of the text box*/
+}
+
+.skills-button { /*The button in the skills section*/
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.skills-button:hover { /*If users hovers over the button*/
+    background-color: black;
+    color: white;
+}
+
+/**/
+/*Education section*/
+/**/
+.education-section {
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.education-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/**/
+/*Button that leads to Hobbies button on home page*/
+/**/
+.hobbies-button-location {
+    text-align: center;
+
+}
+
+.hobbies-button { /*The button at the bottom of the home page*/
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hobbies-button:hover { /*If users hovers over the button*/
+    background-color: black;
+    color: white;
+}
+
+/**/
+/*Footer section*/
+/**/
+.footer {
+    padding: 40px 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid black;
 }

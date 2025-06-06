@@ -6,6 +6,7 @@ import HobbiesButton from "./HobbiesButton";
 import Footer from "./Footer";
 import "./styles.css";
 
+
 function App() {
   return (
     <> 
@@ -20,6 +21,7 @@ function App() {
         </section>
         <aside className="background-image right"></aside>
       </div>
+      <div className="bottom-background"></div>
       <Footer></Footer>
     </>
   );
