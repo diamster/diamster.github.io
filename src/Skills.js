@@ -1,5 +1,11 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 function Skills() {
+    const navigate = useNavigate();
+    const handleButtonClick = () => {
+        window.scrollTo(0, 0); // makes user scroll to top upon button click to next page
+        navigate("/projects");
+    };
     return (
         <div className="skills-section">
             <h2>Technical Skills</h2>
@@ -14,9 +20,9 @@ function Skills() {
                 <li>HTML/CSS</li>
             </ul>   
             <div className="skills-button-location">
-                <Link to="/projects" className="skills-button">
+                <button onClick={handleButtonClick} className="skills-button">
                     See my code in action!
-                </Link>
+                </button>
             </div>    
 
         </div>
