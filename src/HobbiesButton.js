@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 function HobbiesButton() {
     return (
         <div className="hobbies-button-location">
-            <a href="./hobbies" className="hobbies-button">
+            <Link to="./hobbies" className="hobbies-button">
                 Learn more about me!
-            </a>
+            </Link>
         </div>
 
 

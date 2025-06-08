@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Skills() {
     return (
         <div className="skills-section">
@@ -13,9 +14,9 @@ function Skills() {
                 <li>HTML/CSS</li>
             </ul>   
             <div className="skills-button-location">
-                <a href="./projects" className="skills-button">
+                <Link to="/projects" className="skills-button">
                     See my code in action!
-                </a>
+                </Link>
             </div>    
 
         </div>

@@ -22,9 +22,11 @@
 }
 
 .logo-image {
-    height: 40px;
+    height: 50px;
+    image-rendering: pixelated;
     margin-right: 12px;
     vertical-align: middle;
+
 }
 
 .website-name {
@@ -99,7 +101,6 @@
     /*ditributes the flexbox equal space for the center*/
     align-items: stretch;
     min-height: 100vh;
-    margin-top: 40px;
 }
 
 .center-content {
