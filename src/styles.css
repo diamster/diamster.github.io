@@ -266,11 +266,12 @@
     margin-bottom: 15px;
 }
   
-.current-project-items {
+.current-projects-items {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /**/
-/*Portfolio Website in the current projects section*/
+/*Projects in the current projects section*/
 /**/
 .project-title {
     font-size: 18px;
