@@ -266,11 +266,12 @@
     margin-bottom: 15px;
 }
   
-.current-project-items {
+.current-projects-items {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /**/
-/*Portfolio Website in the current projects section*/
+/*Projects in the current projects section*/
 /**/
 .project-title {
     font-size: 18px;
@@ -332,4 +333,29 @@
     border-radius: 15px;
     margin: 15px 0;
     object-fit: cover;
+}
+
+/**/
+/*Experience Button Section*/
+/**/
+
+.experience-button-location {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.experience-button { 
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.experience-button:hover { 
+    background-color: black;
+    color: white;
 }
