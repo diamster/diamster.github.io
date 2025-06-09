@@ -312,3 +312,14 @@
 /**/
 /*Previous Projects Section*/
 /**/
+.previous-projects-section {
+    border: 2px solid black;       
+    border-radius: 20px;            
+    padding: 30px;                  
+    background-color: white;       
+    margin-top: 40px;   
+}
+
+.previou-projects-items {
+    margin-top: 20px;
+}
