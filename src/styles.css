@@ -269,13 +269,31 @@
 .current-project-items {
     margin-top: 20px;
 }
-
-.website-project {
+/**/
+/*Portfolio Website in the current projects section*/
+/**/
+.project-title {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-.portfolio-link {
+.project-description {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.project-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.project-details li {
+    margin-bottom: 4px;
+}
+
+.project-link {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -287,7 +305,31 @@
     transition: background 0.3s, color 0.3s;
 }
   
-.portfolio-link:hover {
+.project-link:hover {
     background-color: black;
     color: white;
+}
+/**/
+/*Previous Projects Section*/
+/**/
+.previous-projects-section {
+    border: 2px solid black;       
+    border-radius: 20px;            
+    padding: 30px;                  
+    background-color: white;       
+    margin-top: 40px;   
+}
+
+.previou-projects-items {
+    margin-top: 20px;
+}
+
+.game-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px 0;
+    object-fit: cover;
 }
