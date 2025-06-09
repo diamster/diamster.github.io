@@ -323,3 +323,13 @@
 .previou-projects-items {
     margin-top: 20px;
 }
+
+.game-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px 0;
+    object-fit: cover;
+}
