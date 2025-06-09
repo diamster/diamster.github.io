@@ -238,3 +238,56 @@
     font-weight: bold;
     border-top: 2px solid black;
 }
+
+/**/
+/* */
+/*Projects Page*/
+/* */
+/**/
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/**/
+/*Current Projects Section*/
+/**/
+.current-projects-section {
+    border: 2px solid black;       
+    border-radius: 20px;            
+    padding: 30px;                  
+    background-color: white;       
+    margin-top: 20px;   
+}
+
+.projects-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+.current-project-items {
+    margin-top: 20px;
+}
+
+.website-project {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.portfolio-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 6px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+  
+.portfolio-link:hover {
+    background-color: black;
+    color: white;
+}
