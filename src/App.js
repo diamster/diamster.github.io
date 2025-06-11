@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import "./styles.css";
 /*import { Route } from "react-router";*/
 import Projects from "./projects";
+import Experiences from "./experiences";
 /*Importing the different pages*/
 
 
@@ -34,6 +35,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
             <Route path="/projects" element={<Projects></Projects>}></Route>
+            <Route path="/experiences" element={<Experiences></Experiences>} />
           </Routes>
         </section>
         <aside className="background-image right"></aside>

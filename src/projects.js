@@ -3,7 +3,7 @@ import PreviousProjects from "./PreviousProjects";
 import ExperienceButton from "./ExperienceButton";
 function Projects () {
     return (
-        <div className="projects-page">
+        <div className="page-setup">
             <CurrentProjects></CurrentProjects>
             <PreviousProjects></PreviousProjects>
             <ExperienceButton></ExperienceButton>

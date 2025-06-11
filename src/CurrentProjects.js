@@ -1,14 +1,14 @@
 function CurrentProjects() {
     return (
-        <div className="current-projects-section">
-            <h2 className="project-headings">Current Projects</h2>
+        <div className="info-section">
+            <h2 className="section-heading">Current Projects</h2>
             {/*Portfolio Website (mini project for CMPT276)*/}
-            <div className="current-projects-items">
-                <h3 className="project-title">Portfolio Website</h3>
-                <p className="project-description">
+            <div className="info-item">
+                <h3 className="info-title">Portfolio Website</h3>
+                <p className="info-description">
                     A personal portfolio website showcasing my skills, current and past projects, infomation about myself and hobbies. 
                 </p>
-                <ul className="project-details">
+                <ul className="info-details">
                     <li><strong>Start Date:</strong> May 2025</li>
                     <li><strong>Status:</strong> In Progress</li>
                     <li><strong>Tech Stack:</strong> React, HTML, and CSS</li>
@@ -19,12 +19,12 @@ function CurrentProjects() {
                 </a>
             </div>
             {/*Taiwan Travel Guide Website (final project for CMPT276)*/}
-            <div className="current-projects-items">
-                <h3 className="project-title">Taiwan Travel Guide Website</h3>
-                <p className="project-description">
+            <div className="info-item">
+                <h3 className="info-title">Taiwan Travel Guide Website</h3>
+                <p className="info-description">
                     A Taiwan travel guide website showcasing the user the best locations, attractions, events and more!
                 </p>
-                <ul className="project-details">
+                <ul className="info-details">
                     <li><strong>Start Date:</strong> May 2025</li>
                     <li><strong>Status:</strong> In Progress</li>
                     <li><strong>Tech Stack:</strong> React, HTML, and CSS</li>
