@@ -1,3 +1,4 @@
+import photo from "./images/HIVELeaderOutfit.jpeg";
 function WorkExperience() {
     return (
     <div className="info-section">
@@ -15,6 +16,9 @@ function WorkExperience() {
         <li><strong>Skills Gained:</strong> Communication, Teamwork, leadership and Campus Knowledge</li>
 
       </ul>
+      </div>
+      <div className="work-experience-photo-border">
+        <img src={photo} alt="Photo of myself in HIVE Leader Uniform" className="work-photo"></img>
       </div>
     </div>
     );
