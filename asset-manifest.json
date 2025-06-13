@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6091c9c0.css",
-    "main.js": "/static/js/main.bf80bc6f.js",
+    "main.css": "/static/css/main.fd4b3573.css",
+    "main.js": "/static/js/main.97024bab.js",
     "static/media/PhotoID.jpg": "/static/media/PhotoID.c24ffb32db99c4d0aa7a.jpg",
     "static/media/FarioGameplayScreenshot.png": "/static/media/FarioGameplayScreenshot.55bcc9476994eb8e50f5.png",
+    "static/media/HIVELeaderOutfit.jpeg": "/static/media/HIVELeaderOutfit.55043b7526fafa06cc20.jpeg",
     "static/media/backgroundimagewebsite.jpg": "/static/media/backgroundimagewebsite.0e5323941582aa6ed30f.jpg",
     "index.html": "/index.html",
-    "main.6091c9c0.css.map": "/static/css/main.6091c9c0.css.map",
-    "main.bf80bc6f.js.map": "/static/js/main.bf80bc6f.js.map"
+    "main.fd4b3573.css.map": "/static/css/main.fd4b3573.css.map",
+    "main.97024bab.js.map": "/static/js/main.97024bab.js.map"
   },
   "entrypoints": [
-    "static/css/main.6091c9c0.css",
-    "static/js/main.bf80bc6f.js"
+    "static/css/main.fd4b3573.css",
+    "static/js/main.97024bab.js"
   ]
 }
