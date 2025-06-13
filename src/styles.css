@@ -396,3 +396,7 @@
     border-radius: 15px;
     object-fit: cover;
 }
+
+/**/
+/*Volunteer Experience Section is the same as Current Project Section, so className is reused (same as Work Experience section)*/
+/**/
