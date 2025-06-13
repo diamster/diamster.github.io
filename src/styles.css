@@ -400,3 +400,27 @@
 /**/
 /*Volunteer Experience Section is the same as Current Project Section, so className is reused (same as Work Experience section)*/
 /**/
+
+/**/
+/*Project Button Section*/
+/**/
+.project-button-location {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-button { 
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.project-button:hover { 
+    background-color: black;
+    color: white;
+}
