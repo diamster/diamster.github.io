@@ -9,6 +9,7 @@ import "./styles.css";
 /*import { Route } from "react-router";*/
 import Projects from "./projects";
 import Experiences from "./experiences";
+import Hobbies from "./hobbies";
 /*Importing the different pages*/
 
 
@@ -35,7 +36,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
             <Route path="/projects" element={<Projects></Projects>}></Route>
-            <Route path="/experiences" element={<Experiences></Experiences>} />
+            <Route path="/experiences" element={<Experiences></Experiences>}></Route>
+            <Route path="/hobbies" element={<Hobbies></Hobbies>}></Route>
           </Routes>
         </section>
         <aside className="background-image right"></aside>
