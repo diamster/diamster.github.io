@@ -10,6 +10,8 @@ import "./styles.css";
 import Projects from "./projects";
 import Experiences from "./experiences";
 import Hobbies from "./hobbies";
+import Contact from "./contact";
+
 /*Importing the different pages*/
 
 
@@ -38,6 +40,7 @@ function App() {
             <Route path="/projects" element={<Projects></Projects>}></Route>
             <Route path="/experiences" element={<Experiences></Experiences>}></Route>
             <Route path="/hobbies" element={<Hobbies></Hobbies>}></Route>
+            <Route path="/contact" element={<Contact></Contact>}></Route>
           </Routes>
         </section>
         <aside className="background-image right"></aside>
