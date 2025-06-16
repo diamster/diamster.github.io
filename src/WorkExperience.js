@@ -7,8 +7,8 @@ function WorkExperience() {
       <div className="info-item">
         <h3 className="info-title">SFU HIVE Welcome Leader</h3>
         <p className="info-description">
-            Guided new students during orientation and promoted a welcoming academic environment.
-            In which I gained leadership, teamwork, and communication skills.
+            Guided new students during orientation and promoted a welcoming academic environment. My responsibilities included supporting the transition of new undergraduate students to their university life,
+            facilitating group activities, answering student questions, and providing insight into academic life and available resources. 
       </p>
       <ul className="info-details">
         <li><strong>Start Date:</strong> June 2024</li>

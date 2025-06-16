@@ -1,4 +1,4 @@
-import HobbiesSection from "./images/HobbiesSection";
+import HobbiesSection from "./HobbiesSection";
 import PersonalInterests from "./PersonalInterests";
 
 

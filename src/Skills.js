@@ -10,7 +10,7 @@ function Skills() {
         <div className="skills-section">
             <h2>Technical Skills</h2>
             <p className="skills-intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ratione unde inventore at quas ipsa esse quod dolorum dolore quae quam facilis veritatis quos? Quas alias quasi itaque molestiae consectetur.
+                I have experience with a range of programming languages and tools that support both front-end and back-end development. My core languages include:
             </p>
             <ul className="skills-list">
                 <li>C#</li>
@@ -19,6 +19,7 @@ function Skills() {
                 <li>Python</li>
                 <li>HTML/CSS</li>
             </ul>   
+            <p className="skills-intro">Furthermore, I'm also familiar with using Git and GitHub for version control and collaboration. However I'm always looking to learn new tools and apply my skills to real world projects.</p>
             <div className="skills-button-location">
                 <button onClick={handleButtonClick} className="skills-button">
                     See my code in action!
