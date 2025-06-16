@@ -6,7 +6,8 @@ function CurrentProjects() {
             <div className="info-item">
                 <h3 className="info-title">Portfolio Website</h3>
                 <p className="info-description">
-                    A personal portfolio website showcasing my skills, current and past projects, infomation about myself and hobbies. 
+                    A personal portfolio website built using React, designed to showcase my technical skills, past and current projects, and experiences. The website also includes sections about me, my hobbies, and a contact me page. 
+                    While the layout is styled with CSS and follows a clean, user friendly structure inspired by wiki style designs such as fandom.
                 </p>
                 <ul className="info-details">
                     <li><strong>Start Date:</strong> May 2025</li>
@@ -22,7 +23,7 @@ function CurrentProjects() {
             <div className="info-item">
                 <h3 className="info-title">Taiwan Travel Guide Website</h3>
                 <p className="info-description">
-                    A Taiwan travel guide website showcasing the user the best locations, attractions, events and more!
+                    A website built to help users explore Taiwan's top destinations, attractions and events. The website also organizes travel information in an interactive format with location suggestions and planning tips. 
                 </p>
                 <ul className="info-details">
                     <li><strong>Start Date:</strong> May 2025</li>

@@ -7,7 +7,8 @@ function PreviousProjects() {
                 <h3 className="project-title">Fario (Unity Game)</h3>
                 <img src={photo} alt="Gameplay screenshot of Fario" className="game-image"></img>
                 <p className="project-description">
-                    A 2D platformer built in the Unity Game Engine featuring health and shield collectibles, enemies, and multiple levels.
+                    A 2D platformer game developed using the Unity Game Engine. The game features a custom-built health and shield system, enemy interactions, and multi-level progression. 
+                    The game also aims to showcase the fundamental game design mechanics and level design using C# and Unity's built-in physics.
                 </p>
                 <ul className="project-details">
                     <li><strong>Start Date:</strong> January 2023</li>
