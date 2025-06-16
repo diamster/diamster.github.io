@@ -26,10 +26,15 @@ function Navbar() {
     const [frameindex, setFrameIndex] = useState(0);
     const pancakeRef = useRef(null); 
     /*pancakeRef = { current: null } */ 
+    const isAnimatingRef = useRef(false); //used to block repeat clicks during animation
 
     useEffect(()=>{
         const pancake = pancakeRef.current;
         const handleClick = () => { 
+            if (isAnimatingRef.current) {
+                return; //blocks if middle of animation
+            }
+            isAnimatingRef.current = true;
             let i = 0;
             const myInterval = setInterval(() => {
                 setFrameIndex(i);
@@ -37,6 +42,10 @@ function Navbar() {
                 if(i > frames.length) {
                     clearInterval(myInterval);
                     setFrameIndex(0);
+                    //Resets the isAnimating variable back to false
+                    setTimeout(() => {
+                        isAnimatingRef.current = false;
+                    }, 100);
                 }
             }, 90);
         };
