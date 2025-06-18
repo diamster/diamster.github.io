@@ -62,7 +62,7 @@ function Navbar() {
         <header className="header">
             <div className="logo">
                 <img src={frames[frameindex]} alt="Website Logo" className="logo-image" ref={ pancakeRef }></img>
-                <span className="website-name">Ryan Fu's portfolio website</span>
+                <Link to="/" className="website-name-link">Ryan Fu's portfolio website</Link>
             </div>
             <nav className="navbar-buttons">
                 <Link to="/" className="nav-link">HOME</Link>

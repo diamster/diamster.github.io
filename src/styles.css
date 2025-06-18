@@ -29,15 +29,23 @@
 
 }
 
-.website-name {
-    font-size: 18px;
-    font-weight: bold;
+.website-name-link {
+    display: inline-block;
+    padding: 10px 18px;
+    text-decoration: none;
     color: black;
+    font-weight: bold;
+    border-right: 1px solid black;
+    transition: background 0.3s, color 0.3s;
     background-color: white;
-    padding: 6px 12px;
     border: 2px solid black;
-    border-radius: 10px;
-    white-space: nowrap;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.website-name-link:hover {
+    background-color: black;
+    color: white;
 }
 
 .navbar-buttons {
@@ -67,7 +75,6 @@
     color: white;
 }
   
-
 /**/
 /*Background image section*/
 /**/
