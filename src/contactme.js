@@ -12,7 +12,7 @@ function ContactMe() {
         </ul>
 
         <p>
-          <strong>Resume:</strong> <a href="/files/Ryan_Fu_Resume.pdf" download className="external-button">Download a copy of my resume!</a>
+          <strong>Resume:</strong> <a href="/files/RyanFu_Resume.pdf" download className="external-button">Download a copy of my resume!</a>
         </p>
 
         <p>Thank you for checking out my website!</p>
